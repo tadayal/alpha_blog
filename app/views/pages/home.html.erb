@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>my fist HTML page </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  		<style>
+  			@media(min-width: 992px) {
+			  .col-md-4:not(:first-child), 
+			  .col-md-6:not(:first-child) {
+			    border-left: 1px solid black;
+			  }
+			  .col-md-4:not(:last-child),
+			  .col-md-6:not(:last-child) {
+			    border-right: 1px ;
+			    margin-right: -1px;
+			  }
+			}
+			.para
+			{
+				padding:10px;
+			}
+			div.row {
+  margin-left: 20px;
+  padding: 1px 16px;
+  
+}
+  		</style>
+	</head>
+	
+	<body>
+		<h1 align="center">Welcome to my Webpage!</h1>
+		<header></header>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<p class="para"><font size="-3">software</font> <b>stastics teaching</b> <font size="-1" color="pink">technology</font> tips tool tools toread travel <font size="-3">tutorial tutorial ~twitter</font> typography <font size="-3">ubuntu</font> usually video videos visualization</p>
+			</div>
+			<div class="col-md-6">
+				<p class="para
+				">software stastics <font size="-3">teaching</font> <font color="pink">technology</font> <font size="-3">tips</font> tool tools toread <font size="-3">travel tutorial</font> <font size="-5">tutorial</font> ~twitter typography ubuntu usually video videos <font color="red">visualization</font></p>
+			</div>
+		</div>
+<center><%= link_to 'About', about_path %></center>
+	</body>
+
+</html>
