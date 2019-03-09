@@ -18,6 +18,10 @@ $navbar-default-bg: #aabff3;
 	text-decoration: none;
 }
 
+.navbar-nav{
+	list-style: none;
+}
+
 .nav-item{
 	padding: 0.7em;
 	margin-left: 1.5em;
@@ -73,6 +77,11 @@ $navbar-default-bg: #aabff3;
 	border-top: 1px solid #eaeaea;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.listing{
+	list-style: none;
+	padding-left: 0;	
 }
 
 footer{
