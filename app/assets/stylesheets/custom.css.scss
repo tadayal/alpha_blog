@@ -19,7 +19,7 @@ $navbar-default-bg: #aabff3;
 }
 
 .navbar-nav{
-	padding-left: 388px;
+	padding-left: 263px;
 	list-style: none;
 }
 
@@ -83,6 +83,17 @@ $navbar-default-bg: #aabff3;
 .listing{
 	list-style: none;
 	padding-left: 0;	
+}
+
+.badge{
+	background-color: #cef6f5;
+	txt-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.input_checkbox input{
+	width: auto !important;
 }
 
 footer{
